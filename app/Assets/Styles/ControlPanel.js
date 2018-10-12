@@ -1,0 +1,75 @@
+import { StyleSheet } from "react-native";
+export default StyleSheet.create({
+     menu_head: {
+       marginTop:10,
+       marginBottom:10,
+     },
+     menu_head_image_box:{
+       marginRight:10
+     },
+     menu_head_image:{
+       width:80,
+       height:80,
+       borderRadius:40
+     },
+     menu_head_lable_box:{
+       flex:1,
+     },
+     menu_head_title:{
+       color:'#FFF',
+       fontSize:16,
+       fontFamily:'Roboto-Medium',
+     },
+     menu_head_date:{
+        color:'#FFF',
+        fontFamily:'Roboto-Regular',
+     },
+     Moreevent:{
+       flexDirection:'column',
+       margin:10
+     },
+     eventRow:{
+       flexDirection:'row',
+       padding:10,
+       alignItems:'center',
+       height:50,
+     },
+     eventTitle: {
+       color:'#FFF',
+       fontFamily:'Roboto-Regular',
+     },
+     menu_items:{
+       flex:1
+     },
+     menu_items_pt:{
+        marginLeft:20,
+     },
+     menu_items_pu:{
+       //borderTopWidth:1,
+       //borderTopColor:'#333',
+     },
+     menu_items_row:{
+         padding:10,
+         borderTopWidth:1,
+         borderTopColor:'#333',
+         flexDirection:'row',
+         alignItems:'center',
+     },
+     menu_items_lable_box:{
+
+     },
+     menu_items_lable:{
+       color:'#FFF',
+       fontFamily:'Roboto-Regular',
+     },
+     menu_items_image_box:{
+        marginRight:10,
+     },
+     menu_items_image:{
+        width:30,
+        height:30
+     },
+     menu_head_lable_arrow_box:{
+
+     }
+});
